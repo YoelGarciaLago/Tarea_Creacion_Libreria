@@ -41,6 +41,9 @@ public class Calc {
         float resultado = n1 / n2;
         return resultado;
     }
+    public static float square(float n1, float n2){
+        return (float) Math.pow(n1, 1/n2);
+    }
     /**
      * @param SUMA asignacion de esta operación al número 1
      */
